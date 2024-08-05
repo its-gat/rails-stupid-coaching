@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <%# <div class="input-group">
+      <form action="/answer" method="get" data-turbo="false">
+        <label for="question">Ask your coach anything</label>
+        <input id="query" type="text" name="question">
+        <input type="submit" value="Ask!">
+      </form>
+    </div> %>
+
+    <div class="m-3">
+      <h1>Stupid Coaching</h1>
+      <p>Ask your coach anything</p>
+      <form class="input-group mb-3" action="/answer" method="get" data-turbo="false">
+        <input id="query" type="text" name="question" class="form-control col-3" placeholder="Write your question here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="submit">Ask!</button>
+        </div>
+      </form>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
